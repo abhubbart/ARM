@@ -1,6 +1,6 @@
-# One Month Rails
+# Audit Resource Management
 
 This is the sample application for 
-[*One Month Rails: Teach yourself to Code*](http://onemonthrails.com)
+[*Audit Resource Management*](http://arm.herokuapps.com)
 
 by [Aaron Hubbart](http://www.hubshelpinghand.com)
