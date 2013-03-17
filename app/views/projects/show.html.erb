@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="span6 offset3">
+    <div class="well">
+      <p>
+        <b>Id:</b>
+        <%= @project.id %>
+      </p>
+
+      <p>
+        <b>Name:</b>
+        <%= @project.name %>
+      </p>
+
+      <p>
+        <b>Description:</b>
+        <%= @project.description %>
+      </p>
+
+      <p>
+        <b>Startdate:</b>
+        <%= @project.startdate %>
+      </p>
+
+      <p>
+        <b>Enddate:</b>
+        <%= @project.enddate %>
+      </p>
+
+      <p>
+        <b>Budgethours:</b>
+        <%= @project.budgetHours %>
+      </p>
+
+      <p>
+        <b>Status:</b>
+        <%= @project.status %>
+      </p>
+
+      <p>
+        <b>Createdby:</b>
+        <%= @project.createdby %>
+      </p>
+
+      <p>
+        <b>Created:</b>
+        <%= @project.created %>
+      </p>
+
+      <p>
+        <b>Modifiedby:</b>
+        <%= @project.modifiedby %>
+      </p>
+
+      <p>
+        <b>Modified:</b>
+        <%= @project.modified %>
+      </p>
+      <%= link_to 'Edit', edit_project_path(@project) %> |
+      <%= link_to 'Back', projects_path %>
+    </div>
+  </div>
+</div>
+
+

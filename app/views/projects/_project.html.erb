@@ -1,0 +1,16 @@
+<tr>
+    <td><%= project.id %></td>
+    <td><%= project.name %></td>
+    <td><%= project.description %></td>
+    <td><%= project.startdate %></td>
+    <td><%= project.enddate %></td>
+    <td><%= project.budgetHours %></td>
+    <td><%= project.status %></td>
+    <td><%= project.createdby %></td>
+    <td><%= project.created %></td>
+    <td><%= project.modifiedby %></td>
+    <td><%= project.modified %></td>
+    <td><%= link_to 'Show', project %></td>
+    <td><%= link_to 'Edit', edit_project_path(project) %></td>
+    <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>

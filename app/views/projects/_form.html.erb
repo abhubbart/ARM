@@ -1,0 +1,21 @@
+<%= simple_form_for(@project, html: {class: "form-horizontal"}) do |f| %>
+  <%= f.error_notification %>
+
+  
+    <%= f.input :id %>
+    <%= f.input :name %>
+    <%= f.input :description, as: :text, input_html: { rows: "3"} %>
+    <%= f.input :startdate %>
+    <%= f.input :enddate %>
+    <%= f.input :budgetHours %>
+    <%= f.input :status %>
+    <%= f.input :createdby %>
+    <%= f.input :created %>
+    <%= f.input :modifiedby %>
+    <%= f.input :modified %>
+  
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-primary" %>
+  </div>
+<% end %>

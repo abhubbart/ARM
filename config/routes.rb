@@ -1,4 +1,7 @@
 ARM::Application.routes.draw do
+  resources :projects
+
+
   devise_for :users
 
   get 'about' => 'pages#about'

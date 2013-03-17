@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  name: MyString
+  description: MyString
+  startdate: 2013-03-16
+  enddate: 2013-03-16
+  budgetHours: 1
+  status: MyString
+  createdby: MyString
+  created: 2013-03-16 21:44:49
+  modifiedby: MyString
+  modified: MyString
+
+two:
+  id: 1
+  name: MyString
+  description: MyString
+  startdate: 2013-03-16
+  enddate: 2013-03-16
+  budgetHours: 1
+  status: MyString
+  createdby: MyString
+  created: 2013-03-16 21:44:49
+  modifiedby: MyString
+  modified: MyString

@@ -1,0 +1,29 @@
+<h1>Project Listing</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Startdate</th>
+      <th>Enddate</th>
+      <th>Budgethours</th>
+      <th>Status</th>
+      <th>Createdby</th>
+      <th>Created</th>
+      <th>Modifiedby</th>
+      <th>Modified</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @projects %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Project', new_project_path %>
