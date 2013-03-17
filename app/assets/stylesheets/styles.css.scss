@@ -6,15 +6,13 @@ $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 $btnPrimaryBackground: green;
 
-@import 'bootstrap';
+@import "bootstrap";
 
 body {
 	padding-top:60px;
 }
 
-
-
-@import 'bootstrap-responsive';
+@import "bootstrap-responsive";
 
 .navbar-inner {
 	@include box-shadow(none !important);
