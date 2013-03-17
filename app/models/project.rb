@@ -3,4 +3,7 @@ class Project < ActiveRecord::Base
   :id, :modified, :modifiedby, :name, :startdate, :status
 
   validates :name, presence: true
+  validates :user_id, presence: true
+  
+  belongs_to :user
 end
